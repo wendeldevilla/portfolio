@@ -196,7 +196,7 @@ header nav a {
 }
 .Iam .innerIam {
   display: inline-block;
-  color: #e74c3c;
+  color: #ffffff;
   position: relative;
   white-space: nowrap;
   top: 0;
@@ -329,8 +329,11 @@ header nav a {
 }
 
 .button {
+  display: block;
   position: absolute;
   padding: 16px 30px;
+  bottom: 50px;
+  left: 600px;
   font-size: 1rem;
   color: var(--color);
   border: 2px solid rgba(0, 0, 0, 0.5);
